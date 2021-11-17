@@ -1,0 +1,16 @@
+footer{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    padding: 0 2rem;
+    
+    a{
+        justify-self: center;
+        text-align: center;
+        max-width: 5rem;
+        padding: 1rem;
+
+        img{
+            width: 100%;
+        }
+    }
+}
